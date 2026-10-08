@@ -1,0 +1,17 @@
+# ===== 红线区：任何密钥/令牌严禁进入 git 历史 =====
+.secrets/
+*.token
+credentials*.txt
+
+# ===== IDE =====
+.idea/
+
+# ===== 本地环境覆盖 =====
+*.local.yaml
+*.local.json
+.env
+
+# ===== Go 构建产物 =====
+*.exe
+*.log
+bin/
